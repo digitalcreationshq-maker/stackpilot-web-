@@ -212,3 +212,76 @@ footer .foot-nav ul{list-style:none; display:flex; flex-wrap:wrap; gap:0.4rem 1.
 footer .foot-nav a{color:var(--paper); font-size:0.9rem;}
 footer .disclosure{font-size:0.82rem; color:#AAB3AA; max-width:44rem; border-top:1px solid #2B3A45; padding-top:1.25rem; margin-top:0.5rem;}
 footer .copyright{font-size:0.8rem; color:#8C968E; margin-top:0.75rem;}
+/* =========================================
+   STACKPILOT ARTICLE SYSTEM
+   ========================================= */
+
+.article-content {
+  max-width: 850px;
+}
+
+.article-content > .guide-read {
+  display: inline-block;
+  margin-bottom: 2.5rem;
+}
+
+.article-section {
+  margin-bottom: 3rem;
+}
+
+.article-section h2 {
+  margin-bottom: 1rem;
+}
+
+.article-section p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.article-section ul {
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.article-section li {
+  margin-bottom: 0.65rem;
+  line-height: 1.7;
+}
+
+.article-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Clickable guide titles */
+
+.guide-title {
+  text-decoration: none;
+}
+
+a.guide-title {
+  font-weight: 600;
+}
+
+a.guide-title:hover {
+  text-decoration: underline;
+}
+
+.guide-read {
+  display: inline-block;
+  margin-top: 0.7rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.guide-read:hover {
+  text-decoration: underline;
+}
+
+.guide-coming {
+  display: inline-block;
+  margin-top: 0.7rem;
+  opacity: 0.65;
+  font-size: 0.9rem;
+  }
