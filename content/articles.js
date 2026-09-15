@@ -166,15 +166,23 @@ export const ARTICLES = [
           "AI can support multiple business workflows, from research and writing to customer service."
       },
 
-      {
-        heading: "AI Writing Tools",
-        paragraphs: [
-          "AI writing platforms can help create first drafts, rewrite existing material, summarize information and generate ideas.",
-          "Human review remains important, particularly for factual claims, brand voice and sensitive business communication."
-        ]
-      },
+ {
+  heading: "ChatGPT",
+  paragraphs: [
+    "ChatGPT can assist small businesses with writing, research, brainstorming, analysis and many other knowledge-work tasks.",
+    "It is particularly useful when a business needs a flexible AI assistant that can handle different types of work from a single interface."
+  ],
+  tool: "chatgpt"
+},
 
-      {
+{
+  heading: "Canva",
+  paragraphs: [
+    "Canva can help small businesses create social media graphics, presentations, marketing materials and other visual content.",
+    "It is especially useful for businesses that need professional-looking designs without maintaining a dedicated design team."
+  ],
+  tool: "canva"
+},
         heading: "AI Research and Productivity Tools",
         paragraphs: [
           "Research-focused AI tools can help users organize information and identify useful starting points faster.",
