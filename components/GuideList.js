@@ -1,51 +1,31 @@
-import Link from 'next/link';
-
-function slugify(text) {
-  return text
-    .toLowerCase()
-    .trim()
-    .replace(/['’]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
+import Link from "next/link";
+import { getArticleByTitle } from "@/content/articles";
 
 export default function GuideList({ items }) {
   return (
     <ul className="guide-list">
       {items.map((item) => {
-        const slug = item.slug || slugify(item.title);
-        const published = item.published !== false;
+        const article = getArticleByTitle(item.title);
 
         return (
           <li key={item.title}>
-            {published ? (
+            {article ? (
               <Link
-                href={`/article?slug=${slug}`}
-                className="guide-title"
+                href={`/${article.category}/${article.slug}`}
+                className="guide-link"
               >
-                {item.title}
+                <span className="guide-title">{item.title}</span>
+                <span className="guide-note">{item.note}</span>
+                <span className="guide-read">Read guide →</span>
               </Link>
             ) : (
-              <span className="guide-title">
-                {item.title}
-              </span>
-            )}
-
-            <span className="guide-note">
-              {item.note}
-            </span>
-
-            {published ? (
-              <Link
-                href={`/article?slug=${slug}`}
-                className="guide-read"
-              >
-                Read Guide →
-              </Link>
-            ) : (
-              <span className="guide-coming">
-                Coming soon
-              </span>
+              <>
+                <span className="guide-title">{item.title}</span>
+                <span className="guide-note">{item.note}</span>
+                <span className="guide-coming-soon">
+                  Full guide coming soon
+                </span>
+              </>
             )}
           </li>
         );
