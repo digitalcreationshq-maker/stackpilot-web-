@@ -21,7 +21,6 @@ export const ARTICLES = [
           "CRM stands for Customer Relationship Management. CRM software gives businesses a central place to organize customer information, sales opportunities, conversations and follow-up activities.",
           "For a small business, the best CRM is not necessarily the platform with the most features. It is the one your team can actually use consistently."
         ],
-
         image: "/images/articles/crm-explained.jpg",
         imageAlt:
           "Diagram showing how CRM software helps manage leads, customers and sales",
@@ -43,10 +42,10 @@ export const ARTICLES = [
           "HubSpot CRM is worth considering for small businesses that want to start with a relatively accessible CRM ecosystem and expand into additional sales and marketing capabilities over time.",
           "Its main attraction is the ability to organize contacts, deals and sales activity in one system."
         ],
-
         image: "/images/tools/hubspot-crm.jpg",
         imageAlt: "HubSpot CRM software interface",
-        imageCaption: "Example of a CRM dashboard used to manage customer relationships."
+        imageCaption:
+          "Example of a CRM dashboard used to manage customer relationships."
       },
 
       {
@@ -55,10 +54,10 @@ export const ARTICLES = [
           "Zoho CRM is another option for businesses that need a broader set of customization and business-management capabilities.",
           "It can be particularly useful when a business wants its CRM to become part of a larger software ecosystem."
         ],
-
         image: "/images/tools/zoho-crm.jpg",
         imageAlt: "Zoho CRM software interface",
-        imageCaption: "CRM software can organize contacts, leads, opportunities and sales activity."
+        imageCaption:
+          "CRM software can organize contacts, leads, opportunities and sales activity."
       },
 
       {
@@ -66,7 +65,6 @@ export const ARTICLES = [
         paragraphs: [
           "When comparing CRM platforms, look beyond the feature count. A small business should prioritize usability, useful automation, integrations and total cost."
         ],
-
         comparison: {
           columns: ["Category", "What to evaluate"],
           rows: [
@@ -98,7 +96,8 @@ export const ARTICLES = [
       "A practical guide to choosing accounting software for freelancers, independent professionals and solo business owners.",
     updated: "September 15, 2026",
 
-    heroImage: "/images/articles/best-accounting-software-for-freelancers.jpg",
+    heroImage:
+      "/images/articles/best-accounting-software-for-freelancers.jpg",
     heroAlt:
       "Freelancer managing invoices and business finances with accounting software",
 
@@ -144,7 +143,8 @@ export const ARTICLES = [
       "A practical guide to AI tools that can help small businesses improve writing, research, marketing, customer service and productivity.",
     updated: "September 15, 2026",
 
-    heroImage: "/images/articles/best-ai-tools-for-small-business.jpg",
+    heroImage:
+      "/images/articles/best-ai-tools-for-small-business.jpg",
     heroAlt:
       "Small business owner using artificial intelligence tools for productivity",
 
@@ -158,7 +158,6 @@ export const ARTICLES = [
           "AI can assist with content creation, research, customer support, data analysis, brainstorming, marketing and administrative tasks.",
           "The biggest opportunities usually appear where employees repeatedly perform the same time-consuming tasks."
         ],
-
         image: "/images/articles/ai-business-workflow.jpg",
         imageAlt:
           "Illustration showing AI assisting different small business workflows",
@@ -166,23 +165,25 @@ export const ARTICLES = [
           "AI can support multiple business workflows, from research and writing to customer service."
       },
 
- {
-  heading: "ChatGPT",
-  paragraphs: [
-    "ChatGPT can assist small businesses with writing, research, brainstorming, analysis and many other knowledge-work tasks.",
-    "It is particularly useful when a business needs a flexible AI assistant that can handle different types of work from a single interface."
-  ],
-  tool: "chatgpt"
-},
+      {
+        heading: "ChatGPT",
+        paragraphs: [
+          "ChatGPT can assist small businesses with writing, research, brainstorming, analysis and many other knowledge-work tasks.",
+          "It is particularly useful when a business needs a flexible AI assistant that can handle different types of work from a single interface."
+        ],
+        tool: "chatgpt"
+      },
 
-{
-  heading: "Canva",
-  paragraphs: [
-    "Canva can help small businesses create social media graphics, presentations, marketing materials and other visual content.",
-    "It is especially useful for businesses that need professional-looking designs without maintaining a dedicated design team."
-  ],
-  tool: "canva"
-},
+      {
+        heading: "Canva",
+        paragraphs: [
+          "Canva can help small businesses create social media graphics, presentations, marketing materials and other visual content.",
+          "It is especially useful for businesses that need professional-looking designs without maintaining a dedicated design team."
+        ],
+        tool: "canva"
+      },
+
+      {
         heading: "AI Research and Productivity Tools",
         paragraphs: [
           "Research-focused AI tools can help users organize information and identify useful starting points faster.",
@@ -207,7 +208,8 @@ export const ARTICLES = [
       "QuickBooks vs Xero explained: compare workflows, accounting features, usability and considerations for small businesses.",
     updated: "September 15, 2026",
 
-    heroImage: "/images/articles/quickbooks-vs-xero.jpg",
+    heroImage:
+      "/images/articles/quickbooks-vs-xero.jpg",
     heroAlt:
       "Accounting software comparison between QuickBooks and Xero",
 
@@ -220,8 +222,8 @@ export const ARTICLES = [
         paragraphs: [
           "Both platforms can support common small-business accounting workflows. The better choice depends on your preferred workflow, integrations, location, accountant relationships and required features."
         ],
-
-        image: "/images/articles/quickbooks-vs-xero-comparison.jpg",
+        image:
+          "/images/articles/quickbooks-vs-xero-comparison.jpg",
         imageAlt:
           "Visual comparison of QuickBooks and Xero accounting software",
         imageCaption:
@@ -276,8 +278,8 @@ export const ARTICLES = [
           "Project management platforms help teams organize tasks, assign responsibilities, track deadlines and monitor project progress.",
           "The right system should make work clearer rather than introduce another complicated administrative burden."
         ],
-
-        image: "/images/articles/project-management-workflow.jpg",
+        image:
+          "/images/articles/project-management-workflow.jpg",
         imageAlt:
           "Project management workflow showing tasks, deadlines and team responsibilities",
         imageCaption:
@@ -324,8 +326,8 @@ export const ARTICLES = [
           "A good website builder should make it possible to create and maintain a professional website without unnecessary technical complexity.",
           "Businesses should consider templates, customization, SEO capabilities, performance, ecommerce features and pricing."
         ],
-
-        image: "/images/articles/website-builder-explained.jpg",
+        image:
+          "/images/articles/website-builder-explained.jpg",
         imageAlt:
           "Illustration explaining the components of a small business website",
         imageCaption:
@@ -359,4 +361,4 @@ export function getArticleBySlug(category, slug) {
 
 export function getArticleByTitle(title) {
   return ARTICLES.find((article) => article.title === title);
-          }
+        }
