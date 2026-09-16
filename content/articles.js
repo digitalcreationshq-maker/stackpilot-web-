@@ -136,23 +136,225 @@ export const ARTICLES = [
   },
 
   {
-    slug: "best-ai-tools-for-small-business",
-    category: "ai-tools",
-    title: "Best AI Tools for Small Business",
-    description:
-      "A practical guide to AI tools that can help small businesses improve writing, research, marketing, customer service and productivity.",
-    updated: "September 15, 2026",
+  title: "5 Best AI Tools for Small Businesses",
+  slug: "best-ai-tools-for-small-business",
+  category: "ai-tools",
 
-    heroImage:
-      "/images/articles/best-ai-tools-for-small-business.jpg",
-    heroAlt:
-      "Small business owner using artificial intelligence tools for productivity",
+  description:
+    "Five AI tools that actually survived a small business's daily use, with real pricing, real limits, and the drawback each one won't put in its own marketing.",
 
-    intro:
-      "AI tools can help small businesses perform tasks faster, but choosing the right tools matters. The goal should be measurable productivity rather than using AI simply because it is popular.",
+  heroImage: "/images/articles/best-ai-tools-for-small-business.jpg",
+  heroAlt:
+    "Best AI tools for small businesses including ChatGPT, Canva, Zapier, Otter.ai and Buffer",
 
-    sections: [
-      {
+  intro:
+    "You don't need twelve AI subscriptions to run a small business better. You need maybe three, used well, and a clear idea of which one solves which problem.",
+
+  sections: [
+    {
+      heading: "The Shortlist",
+
+      paragraphs: [
+        "Most \"best AI tools\" posts list fifteen apps that all sort of do the same thing and call it a day. This one doesn't. Five tools, five different jobs, and an honest note on where each one falls short. If a tool made this list, someone on this site actually opened it, used it for real work, and ran into its limits.",
+
+        "Pricing below is monthly unless noted, and reflects each company's own site as of September 2026."
+      ],
+
+      comparison: {
+        headers: [
+          "Tool",
+          "Best For",
+          "Starting Price",
+          "Free Plan"
+        ],
+
+        rows: [
+          [
+            "ChatGPT",
+            "Writing, brainstorming, customer replies",
+            "$20/mo (Plus)",
+            "Yes, unlimited basic chat"
+          ],
+          [
+            "Canva Magic Studio",
+            "Social graphics and marketing design",
+            "~$15/mo (Pro)",
+            "Yes, limited AI credits"
+          ],
+          [
+            "Zapier",
+            "Connecting apps, killing busywork",
+            "$19.99/mo (Professional, annual)",
+            "Yes, 100 tasks/mo"
+          ],
+          [
+            "Otter.ai",
+            "Meeting notes and transcription",
+            "$8.33/mo (Pro, annual)",
+            "Yes, 300 min/mo"
+          ],
+          [
+            "Buffer",
+            "Scheduling and writing social captions",
+            "$5 to $6/channel/mo",
+            "Yes, 3 channels"
+          ]
+        ]
+      }
+    },
+
+    {
+      heading: "Why These Five?",
+
+      paragraphs: [
+        "Nothing here made the cut for being popular. Each tool had to do one job well. It also needed a free tier, or a price a one-person operation could justify. And it had to survive a full week of real use without falling apart. A few well-known names didn't make it, for exactly that reason. So did a couple of tools that looked great in a demo and fell apart the first time a real workflow leaned on them.",
+
+        "These five also happen to cover five different jobs on purpose: writing, design, automation, meeting notes, and social scheduling. A business doesn't need all five. It needs whichever one solves the problem eating the most hours right now."
+      ]
+    },
+
+    {
+      heading: "1. ChatGPT",
+
+      tool: "chatgpt",
+
+      paragraphs: [
+        "Start here if only one AI tool gets added this year. Not because ChatGPT does everything best. It's the closest thing to a generalist assistant that's actually good at enough jobs to be worth $20 a month.",
+
+        "The free tier now includes unlimited basic text chat. That alone covers plenty: draft an email, rewrite a product description, or push back on a marketing angle until it stops sounding like an ad. Plus, at $20 a month flat, adds file uploads, image generation, a deeper research mode, and higher usage ceilings for a genuinely busy week.",
+
+        "A lot of small businesses use it as a first-draft machine now, for anything that used to mean staring at a blank page. A job posting. A refund policy. A cold email. The output still needs editing. It rarely needs to be written from zero anymore.",
+
+        "Here's the catch nobody puts in the marketing copy. ChatGPT knows almost nothing about a specific business until it's told. Every useful reply out of it is downstream of how much context went in first. Skip that step and the output reads like generic small-business filler, the exact tone this guide is trying not to sound like."
+      ],
+
+      bestFor:
+        "Anyone doing their own writing, customer replies, or first-draft thinking without a copywriter on staff."
+    },
+
+    {
+      heading: "2. Canva Magic Studio",
+
+      tool: "canva",
+
+      paragraphs: [
+        "Canva stopped being just a template tool a while back. Magic Studio is the AI layer built into that same drag-and-drop editor. For a small business that needs graphics without hiring a designer, it's the easiest tool on this list to just pick up and use.",
+
+        "The free plan includes a real but limited monthly pool of AI credits. That's enough for a handful of edits or Magic Write drafts, not for someone producing daily Pinterest pins. Pro runs close to $15 a month, or around $120 paid annually. It unlocks the full credit pool along with the premium template and photo library. That gap between the two is usually where the upgrade decision actually gets made.",
+
+        "The AI image generation is where it disappoints. Output resolution on AI-generated images is capped lower than what Canva's own stock photo library gives you. Magic Write, the built-in copy assistant, handles a caption fine and thins out fast on anything longer. Treat Magic Studio as a design shortcut, not a content strategy."
+      ],
+
+      bestFor:
+        "Whoever is currently making Pinterest pins, social graphics, or flyers by hand, or paying someone else to."
+    },
+
+    {
+      heading: "3. Zapier",
+
+      tool: "zapier",
+
+      paragraphs: [
+        "Every small business ends up with the same problem eventually. Three or four tools that should talk to each other, and don't. Zapier is the fix, and has been long enough that almost every piece of software already has a Zapier connection built in.",
+
+        "The free plan gives 100 tasks a month, but locks every Zap to two steps: one trigger, one action. That's fine for testing, not for running a real workflow. Professional starts at $19.99 a month on annual billing, or $29.99 paying monthly, and covers 750 tasks with multi-step Zaps and premium app connections unlocked.",
+
+        "A common starter workflow looks like this. A new form submission on the website creates a contact in the CRM and drops a notification in the team chat. That alone is two or three tasks every single time someone fills out the form.",
+
+        "Tasks disappear faster than the number suggests. A single automated workflow can burn through several tasks on one run. So 750 sounds like more than it is once a few Zaps are actually live. Budget for the tier above whatever looks right on paper."
+      ],
+
+      bestFor:
+        "Anyone manually copying data between two apps right now. If that's happening more than once a week, Zapier pays for itself."
+    },
+
+    {
+      heading: "4. Otter.ai",
+
+      tool: "otter-ai",
+
+      paragraphs: [
+        "A meeting nobody takes real notes in is a meeting half the team forgets by Thursday. Otter transcribes and summarizes calls automatically, and it's become close to standard for small teams running a lot of client calls.",
+
+        "The free plan covers 300 transcription minutes a month, but caps any single conversation at 30 minutes. Pro runs $8.33 a month billed annually, or $16.99 monthly, and raises that ceiling to 1,200 minutes with a 90-minute per-meeting cap. Teams that outgrow even that move to Business, which removes the meeting-length limit entirely for $19.99 a seat annually.",
+
+        "That 30-minute cap on the free plan is the detail that catches people off guard. A normal hour-long client call gets cut off halfway through, mid-sentence, with no warning until it happens. And the free plan's three file imports aren't three a month. They're three, ever, for the life of the account."
+      ],
+
+      bestFor:
+        "Anyone running client calls, sales calls, or team meetings who's tired of half-remembering what got agreed to. A weekly one-on-one or a single sales call a day fits comfortably inside the free plan's 300 minutes. Anything closer to daily client work needs Pro."
+    },
+
+    {
+      heading: "5. Buffer",
+
+      tool: "buffer",
+
+      paragraphs: [
+        "If Pinterest pins or Instagram posts are still getting written and scheduled one at a time by hand, that's an afternoon a week gone. Buffer does the same job in twenty minutes.",
+
+        "The free plan covers 3 connected channels and 10 scheduled posts per channel. The AI Assistant is included at no cost with no separate usage cap, which is unusual for this category.",
+
+        "Essentials starts around $5 to $6 per channel a month depending on billing, and removes the post cap entirely. It also connects to Pinterest directly, which matters more here than on most scheduling tools. A badly timed pin gets buried fast in a fast-moving feed.",
+
+        "The AI Assistant writes and rewrites captions well. It won't touch images, video, or carousel graphics, so it still hands the visual half of the post back to Canva. Per-channel pricing also adds up fast once a business runs more than five or six accounts."
+      ],
+
+      bestFor:
+        "Anyone building an actual Pinterest or Instagram posting schedule instead of posting whenever they remember to."
+    },
+
+    {
+      heading: "A Few Questions Worth Answering Directly",
+
+      faq: [
+        {
+          question: "Do all five need to get added at once?",
+          answer:
+            "No. Add one, use it until it's actually part of a weekly routine. Then decide if the next problem on the list is worth solving with another subscription."
+        },
+        {
+          question: "Are there free alternatives to all of these?",
+          answer:
+            "Some. The free plans listed above already cover real, if limited, use. Google's Gemini and Microsoft Copilot both compete directly with ChatGPT. Either is worth a look if a business already pays for Google Workspace or Microsoft 365, since the AI features sometimes come bundled in."
+        },
+        {
+          question: "Does any of this replace hiring a VA or a marketing person?",
+          answer:
+            "Not entirely. These tools remove the busywork around writing, scheduling, and note-taking. They don't replace judgment about what to actually say, or who to say it to. That part's still on the business owner."
+        },
+        {
+          question: "What if the free plans are enough?",
+          answer:
+            "Then stay on them. Every tool on this list has a free tier worth using on its own. There's no rule that says a small business has to upgrade anything. Upgrade when a specific limit starts getting hit weekly, not before."
+        }
+      ]
+    },
+
+    {
+      heading: "Which One to Actually Install First",
+
+      paragraphs: [
+        "Five tools is still four more than most small businesses need on day one. If nothing else gets added this year, start with ChatGPT for the writing and thinking. Then add Canva or Buffer next, depending on whether design or scheduling is the bigger time sink right now. Zapier and Otter earn their spot once there's an actual repetitive task or a calendar full of calls to justify them, not before.",
+
+        "Track the actual time saved for a month before reaching for a sixth tool. If nothing changed, the problem was never the tool.",
+
+        "And revisit this list in six months anyway. Pricing on every one of these shifted at least once in the last year. A free plan that felt generous in September can look a lot smaller by spring.",
+
+        "None of these five are the last AI tool a small business will ever need. They're just the five that survived real use long enough to be worth the subscription."
+      ]
+    }
+  ],
+
+  cta: {
+    heading: "Build Your AI Stack Around the Work You Actually Do",
+    text:
+      "Don't subscribe to five tools just because they're on a list. Start with the task costing your business the most time, choose the tool that addresses it, and measure the difference before adding anything else."
+  },
+
+  disclosure:
+    "A few links in this guide are affiliate links. If a tool gets signed up for through one of them, Stack Pilot may earn a small commission at no cost to the reader. It doesn't change which tools make this list or how honestly the drawbacks get written up."
+},
         heading: "Where AI Can Help a Small Business",
         paragraphs: [
           "AI can assist with content creation, research, customer support, data analysis, brainstorming, marketing and administrative tasks.",
