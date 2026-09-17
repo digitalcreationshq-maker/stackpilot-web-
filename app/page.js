@@ -52,7 +52,7 @@ const FEATURED_GUIDES = [
     note: 'Invoicing, taxes and cash flow in one place — ranked by how little accounting you actually have to do.',
   },
   {
-    title: '5 Best AI Tools for Small Business',
+    title: '5 Best AI Tools for Small Businesses',
     note: "The AI tools worth paying for once you're past the free-trial stage.",
   },
   {
