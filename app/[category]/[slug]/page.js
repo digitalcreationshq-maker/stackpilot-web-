@@ -58,7 +58,8 @@ function ComparisonTable({ comparison }) {
       <table className="comparison-table">
         <thead>
           <tr>
-            {comparison.columns.map((column) => (
+            const columns = comparison.columns || comparison.headers || [];
+            {columns.map((column) => (
               <th key={column}>{column}</th>
             ))}
           </tr>
