@@ -53,12 +53,13 @@ function ArticleImage({ src, alt, caption }) {
 function ComparisonTable({ comparison }) {
   if (!comparison) return null;
 
+  const columns = comparison.columns || comparison.headers || [];
+
   return (
     <div className="comparison-table-wrap">
       <table className="comparison-table">
         <thead>
           <tr>
-            const columns = comparison.columns || comparison.headers || [];
             {columns.map((column) => (
               <th key={column}>{column}</th>
             ))}
@@ -295,4 +296,4 @@ export default async function ArticlePage({ params }) {
       </article>
     </main>
   );
-    }
+}
