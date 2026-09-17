@@ -355,52 +355,7 @@ export const ARTICLES = [
   disclosure:
     "A few links in this guide are affiliate links. If a tool gets signed up for through one of them, Stack Pilot may earn a small commission at no cost to the reader. It doesn't change which tools make this list or how honestly the drawbacks get written up."
 },
-        heading: "Where AI Can Help a Small Business",
-        paragraphs: [
-          "AI can assist with content creation, research, customer support, data analysis, brainstorming, marketing and administrative tasks.",
-          "The biggest opportunities usually appear where employees repeatedly perform the same time-consuming tasks."
-        ],
-        image: "/images/articles/ai-business-workflow.jpg",
-        imageAlt:
-          "Illustration showing AI assisting different small business workflows",
-        imageCaption:
-          "AI can support multiple business workflows, from research and writing to customer service."
-      },
-
-      {
-        heading: "ChatGPT",
-        paragraphs: [
-          "ChatGPT can assist small businesses with writing, research, brainstorming, analysis and many other knowledge-work tasks.",
-          "It is particularly useful when a business needs a flexible AI assistant that can handle different types of work from a single interface."
-        ],
-        tool: "chatgpt"
-      },
-
-      {
-        heading: "Canva",
-        paragraphs: [
-          "Canva can help small businesses create social media graphics, presentations, marketing materials and other visual content.",
-          "It is especially useful for businesses that need professional-looking designs without maintaining a dedicated design team."
-        ],
-        tool: "canva"
-      },
-
-      {
-        heading: "AI Research and Productivity Tools",
-        paragraphs: [
-          "Research-focused AI tools can help users organize information and identify useful starting points faster.",
-          "The most useful tool depends on the type of research and the level of accuracy required."
-        ]
-      },
-
-      {
-        heading: "How to Choose an AI Tool",
-        paragraphs: [
-          "Start with the task you want to improve. Then compare tools based on output quality, reliability, privacy, integrations, pricing and ease of use."
-        ]
-      }
-    ]
-  },
+        
 
   {
     slug: "quickbooks-vs-xero",
