@@ -559,7 +559,8 @@ export function getArticleBySlug(category, slug) {
     (article) =>
       article.category === category && article.slug === slug
   );
+}
 
 export function getArticleByTitle(title) {
   return ARTICLES.find((article) => article.title === title);
-        }
+}
