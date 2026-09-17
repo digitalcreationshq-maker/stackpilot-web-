@@ -9,7 +9,7 @@ export const metadata = {
 const SUBCATEGORIES = ['Writing', 'Video', 'Image', 'Marketing', 'Productivity', 'Automation'];
 
 const GUIDES = [
-  { title: '5 Best AI Tools for Small Business', note: "The starting shortlist if you're only going to adopt one or two tools this year." },
+  { title: '5 Best AI Tools for Small Businesses', note: "The starting shortlist if you're only going to adopt one or two tools this year." },
   { title: 'Best AI Writing Tools', note: "For blog posts, ad copy and emails that don't read like they came from a template." },
   { title: 'Best AI Tools for Marketing', note: 'Campaign planning, copy and creative, without hiring an agency.' },
   { title: 'Best AI Tools for Entrepreneurs', note: 'The tools solo founders actually lean on day to day.' },
