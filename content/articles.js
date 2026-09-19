@@ -508,7 +508,7 @@ export const ARTICLES = [
     ]
   }
 ,
-      {
+        {
     "slug": "best-ai-writing-tools-for-small",
     "category": "ai-tools",
     "title": "Best AI Writing Tools for Small",
